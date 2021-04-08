@@ -3,7 +3,10 @@
 	<!-- titre de la page -->
 	<head>
 		<meta charset="utf-8">
-		<title>Ohmyfood</title>
+        <link rel="stylesheet" href="sass/base/base.css">
+        <link rel="stylesheet" href="sass/layout/header.css">
+        <link rel="stylesheet" href="sass/pages/banner.css">
+        <link rel="stylesheet" href="sass/utils/variable.scss">
 	</head>
 	<!-- titre de la page -->
 
@@ -15,22 +18,28 @@
 
         <!--en-tête-->
         <header>
-            <img src="image/icone/arrow-left.svg">
-            <img src="image/logo/ohmyfood.png" alt="logo">
+            <img class="arrow-left" src="image/icone/arrow-left.svg">
+            <img class="logo" src="image/logo/ohmyfood.png" alt="logo">
         </header>
         <!--en-tête-->
         <!--bannière-->
         <div id="banner">
-            <img src="image/icone/map-marker.svg" alt="map-marker">
-            <a href="#" class="banner__locate"> Paris, Belleville</a>
-            <h1>Réservez le menu qui vous convient</h1>
-            <p>Découvrez des restaurants d'exception, séléctionnés par nos soins.</p>
-            <a href="#" class="banner__button">Explorer nos restaurants</a>
+
+            <div class="banner__locate">
+                 <img src="image/icone/map-marker.svg" alt="map-marker">
+                  <a href="#"> Paris, Belleville</a>
+             </div>
+
+             <div class="banner__explore">
+              <h1 class="schrik">Réservez le menu qui vous convient</h1>
+               <p>Découvrez des restaurants d'exception, séléctionnés par nos soins.</p>
+               <a href="#" class="banner__button">Explorer nos restaurants</a>
+             </div>
         </div>
         <!--bannière-->
         <!--naviguation-->
         <nav>
-            <h1>Fonctionnement</h1>
+            <h1 class="schrik">Fonctionnement</h1>
             <div class="nav__nav">
                 <a href="#" class="nav__one">
                     <p>1</p>
@@ -54,7 +63,7 @@
         <!--naviguation-->
         <!--section restaurant-->
         <section>
-            <h1>Restaurants</h1>
+            <h1 class="schrik">Restaurants</h1>
 
             <a href="#" class="card">
                 <div class="image__restaurant_1">
@@ -114,7 +123,7 @@
             <a href="#">Mentions légales</a>
             <a href="#">Contact</a>
         </div>
-        
+
         </footer>
         <!--footer-->
 		</div>

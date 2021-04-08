@@ -1,0 +1,28 @@
+@font-face {
+    font-family: 'robotoregular';
+    src: url('roboto-regular-webfont.woff2') format('woff2'),
+         url('roboto-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'shrikhandregular';
+    src: url('shrikhand-regular-webfont.woff2') format('woff2'),
+         url('shrikhand-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+{
+    outline: solid 1px black;
+}
+
+.schrik{
+    font-family:shrikhandregular;
+}
+
+body{
+    font-family:robotoregular;
+    background-color: white;
+    margin: 0px;
+}
