@@ -3,15 +3,14 @@
 	<!-- titre de la page -->
 	<head>
 		<meta charset="utf-8">
-        <link rel="stylesheet" href="sass/base/base.css">
-        <link rel="stylesheet" href="sass/layout/header.css">
-        <link rel="stylesheet" href="sass/pages/banner.css">
-        <link rel="stylesheet" href="sass/utils/variable.scss">
+        <link rel="stylesheet" href="./sass/index.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&family=Shrikhand&display=swap" rel="stylesheet"> 
 	</head>
 	<!-- titre de la page -->
 
 	<!-- corps du texte -->
-	<body>
+	<body class="roboto">
 		<!--bloc page-->
 		<div id="bloc_page">
 
@@ -31,34 +30,35 @@
              </div>
 
              <div class="banner__explore">
-              <h1 class="schrik">Réservez le menu qui vous convient</h1>
+               <h1 class="schrik">Réservez le menu qui vous convient</h1>
                <p>Découvrez des restaurants d'exception, séléctionnés par nos soins.</p>
-               <a href="#" class="banner__button">Explorer nos restaurants</a>
+               <a href="#"class="banner__button"><p>Explorer nos restaurants</p></a>
              </div>
         </div>
         <!--bannière-->
         <!--naviguation-->
         <nav>
             <h1 class="schrik">Fonctionnement</h1>
-            <div class="nav__nav">
-                <a href="#" class="nav__one">
-                    <p>1</p>
-                    <img src="image/icone/mobile.svg">
-                    <p class="nav--content">Choisissez un restaurant</p>
-                </a>
+                    <p class="cards--number">1</p>
+                    <a href="#">
+                    <div class="nav__cards">
+                     <img src="image/icone/mobile.svg">
+                     <p class="cards--content">Choisissez un restaurant</p>
+                    </div>
+                    </a>
 
-                <a href="#" class="nav__two">
-                    <p>1</p>
-                    <img src="image/icone/mobile.svg">
-                    <p class="nav--content">Composez votre menu</p>
+                <a href="#" class="nav__cards">
+                    <p class="cards--number">2</p>
+                    <img src="image/icone/list.svg">
+                    <p class="cards--content">Composez votre menu</p>
                 </a>
-
-                <a href="#" class="nav__three">
-                    <p>1</p>
-                    <img src="image/icone/mobile.svg">
-                    <p class="nav--content">Dégustez au restaurant</p>
+                <p class="cards--number">3</p>
+                <a href="#">
+                    <div class="nav__cards">
+                    <img src="image/icone/store.svg">
+                    <p class="cards--content">Dégustez au restaurant</p>
+                </div>
                 </a>
-            </div>
         </nav>
         <!--naviguation-->
         <!--section restaurant-->

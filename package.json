@@ -1,0 +1,23 @@
+{
+  "name": "julienmor_3_08-04-2021",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --version",
+    "watch": "sass --watch ./sass/index.scss:./sass/index.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rodju/Julienmor_3_08-04-2021.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Rodju/Julienmor_3_08-04-2021/issues"
+  },
+  "homepage": "https://github.com/Rodju/Julienmor_3_08-04-2021#readme",
+  "dependencies": {
+    "sass": "^1.32.8"
+  }
+}

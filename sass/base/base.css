@@ -1,28 +1,15 @@
-@font-face {
-    font-family: 'robotoregular';
-    src: url('roboto-regular-webfont.woff2') format('woff2'),
-         url('roboto-regular-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-@font-face {
-    font-family: 'shrikhandregular';
-    src: url('shrikhand-regular-webfont.woff2') format('woff2'),
-         url('shrikhand-regular-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
+.schrik {
+  font-family: Shrikhand, Georgia, 'Times New Roman', Times, serif, Times, serif;
 }
 
-{
-    outline: solid 1px black;
+h1 {
+  font-size: 30px;
+  font-weight: bold;
 }
 
-.schrik{
-    font-family:shrikhandregular;
+.roboto {
+  font-family: Roboto;
+  background-color: white;
+  margin: 0px;
 }
-
-body{
-    font-family:robotoregular;
-    background-color: white;
-    margin: 0px;
-}
+/*# sourceMappingURL=base.css.map */
