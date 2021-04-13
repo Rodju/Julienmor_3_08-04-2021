@@ -1,15 +1,14 @@
-.schrik {
-  font-family: Shrikhand, Georgia, 'Times New Roman', Times, serif, Times, serif;
+.schrik{
+    font-family:Shrikhand, Georgia, 'Times New Roman', Times, serif, Times, serif
 }
 
-h1 {
-  font-size: 30px;
-  font-weight: bold;
+h1{
+    font-size: 30px;
+    font-weight: bold;
 }
 
-.roboto {
-  font-family: Roboto;
-  background-color: white;
-  margin: 0px;
+.roboto{
+    font-family:Roboto;
+    background-color: white;
+    margin: 0px;
 }
-/*# sourceMappingURL=base.css.map */

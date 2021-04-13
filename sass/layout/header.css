@@ -1,18 +1,14 @@
-header {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  padding: 30px 20px 20px 20px;
+
+header{
+    display: flex;
+    justify-content: center;
+    padding: 30px 20px 20px 20px;
 }
 
-.arrow-left {
-  display: none;
+.arrow-left{
+    display: none;
 }
 
-.logo {
-  height: 40px;
+.logo{
+    height: 40px;
 }
-/*# sourceMappingURL=header.css.map */
