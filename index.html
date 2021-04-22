@@ -3,24 +3,24 @@
 	<!-- titre de la page -->
 	<head>
 		<meta charset="utf-8">
-        <link rel="stylesheet" href="./sass/base/base.css">
-        <link rel="stylesheet" href="./sass/layout/header.css">
-        <link rel="stylesheet" href="./sass/pages/banner.css">
-        <link rel="stylesheet" href="./sass/pages/nav.css">
-        <link rel="stylesheet" href="./sass/utils/variable.css">
-        <link rel="stylesheet" href="./sass/pages/section.css">
-        <link rel="stylesheet" href="./sass/pages/footer.css">
-        <link rel="stylesheet" href="./sass/utils/animation.css">
+        <link rel="stylesheet" href="./css/main_style/footer.css">
+        <link rel="stylesheet" href="./css/main_style/base.css">
+        <link rel="stylesheet" href="./css/main_style/variable.css">
+        <link rel="stylesheet" href="./css/main_style/animation.css">
+        <link rel="stylesheet" href="./css/main_style/header.css">
+        <link rel="stylesheet" href="./css/index/banner.css">
+        <link rel="stylesheet" href="./css/index/nav.css">
+        <link rel="stylesheet" href="./css/index/section.css">
         <link rel="preconnect" href="https://fonts.gstatic.com">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&family=Shrikhand&display=swap" rel="stylesheet">
         <!-- titre de la page -->
     </head>
 	<!-- corps du texte -->
-	<body class="roboto">
+
+    <body class="roboto">
 		<!--bloc page-->
 		<div id="bloc_page">
-
-
         <!--en-tête-->
         <header>
             <img class="logo" src="image/logo/ohmyfood.png" alt="logo">
@@ -43,9 +43,11 @@
         <!--bannière-->
         <!--naviguation-->
         <nav>
+
             <h1>Fonctionnement</h1>
 
-                    <a href="#">
+            <div class="desktop">
+                <a href="#">
                     <div class="nav__cards">
                     <p class="cards__number">1</p>
                      <img src="image/icone/mobile.svg">
@@ -53,10 +55,12 @@
                     </div>
                     </a>
 
-                <a href="#" class="nav__cards">
+                <a href="#">
+                    <div class="nav__cards">
                     <p class="cards__number">2</p>
                     <img src="image/icone/list.svg">
                     <p class="cards__content">Composez votre menu</p>
+                </div>
                 </a>
 
                 <a href="#">
@@ -66,12 +70,14 @@
                     <p class="cards__content">Dégustez au restaurant</p>
                 </div>
                 </a>
+            </div>
         </nav>
         <!--naviguation-->
         <!--section restaurant-->
         <section>
             <h1>Restaurants</h1>
 
+            <div class="section__desktop">
             <a href="menilmontant.html" class="card">
                 <div class="image__restaurant">
                     <p class="card__new">Nouveau</p>
@@ -95,7 +101,8 @@
                     <h3>Charonne</h3>
                 </div>
             </a>
-
+             </div>
+             <div class="section__desktop">
             <a href="cite_rouge.html" class="card">
                 <div class="image__restaurant">
                     <img src="image/restaurant/cite_rouge.jpg" src="restaurant">
@@ -117,7 +124,7 @@
                     <h3>Folie-Méricourt</h3>
                 </div>
             </a>
-
+        </div>
         </section>
         <!--section restaurant-->
         <!--footer-->
