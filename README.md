@@ -1,10 +1,11 @@
 * ligne de commande linux
 
-
-Elipsis...  (animation)
+Centrer le texte avec flex
 Vendredi 16h
 Finir les animations
-Responsive
 codepen.io (animation)
-
 Réduire le code au max
+
+Finir le projet, W3C validator
+
+Point d'évaluation: 
