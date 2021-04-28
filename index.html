@@ -19,11 +19,19 @@
 	<!-- corps du texte -->
 
     <body class="roboto">
+
+        <div class="loader"></div>
+        <script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script>
+        <script type="text/javascript">
+        $(window).load(function() {
+        $(".loader").fadeOut("1000"); })
+        </script>
+
 		<!--bloc page-->
 		<div id="bloc_page">
         <!--en-tête-->
         <header>
-            <img class="logo" src="image/logo/ohmyfood.png" alt="logo">
+            <a href="index.html"><img class="logo" src="image/logo/ohmyfood.png" alt="logo"></a>
         </header>
         <!--en-tête-->
         <!--bannière-->
