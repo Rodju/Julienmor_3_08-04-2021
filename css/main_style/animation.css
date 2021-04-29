@@ -1,0 +1,192 @@
+/* coeur */
+.heart{
+    background: url('/image/icone/heart.svg') no-repeat;
+    position: absolute;
+    background-size: cover;
+    right: 50px;
+    height: 30px;
+    width: 30px;
+    margin-top: 12px;
+}
+
+.heart:hover{
+    background: url('/image/icone/heartpurple.png') no-repeat;
+    background-size: cover;
+}
+
+.heart__restaurant{
+    background: url('/image/icone/heart.svg') no-repeat;
+    position: absolute;
+    background-size: cover;
+    right: 50px;
+    height: 30px;
+    top: 35px;
+    width: 30px;
+    margin-top: 12px;
+}
+
+.heart__restaurant:hover, .heart__restaurant:active{
+    background: url('/image/icone/heartpurple.png') no-repeat;
+    background-size: cover;
+}
+
+/* coeur */
+
+/* button*/
+
+.banner__button:hover p{
+    opacity: 0.8;
+    transition: 0.3s linear;
+    box-shadow: 20px 10px 10px rgb(185, 185, 185);
+}
+
+.card__new, .banner__button p{
+    transition: 0.3s linear;
+}
+
+.card__new:hover{
+  transform: scale(1.1);
+  transition: 0.3s linear;
+}
+
+
+/* button*/
+
+.section__card:hover .card__left{
+    border-radius: 15px 0px 0px 15px;
+}
+.section__card:hover .card__right{
+    width: 80px;
+}
+
+.card__right{
+    transition: 0.2s;
+}
+
+.section__card:hover img{
+    animation: turn 0.3s linear forwards;
+}
+
+@keyframes turn{
+    from{
+        transform:translateX(6vh)  rotate(360deg) ;
+    }
+    to{
+        transform: translateX(0vh)  rotate(0deg) ;
+        }
+}
+
+
+
+/* Animation entering card */
+.section__card{
+    opacity:0;
+    animation: entering 0.6s linear forwards;
+}
+.green{
+    opacity:0;
+    animation: entering 0.6s linear forwards;
+}
+
+@keyframes entering{
+    0% {
+        transform: translateY(3vh);
+        opacity:0;
+        /* transform:scale(50%) */
+    }
+    100% {
+        transform:translateY(0);
+        opacity: 1;
+    }
+}
+.section__card:nth-child(2){
+    animation-delay: 0.2s;
+}
+.section__card:nth-child(3){
+    animation-delay: 0.4s;
+}
+.section__card:nth-child(4){
+    animation-delay: 0.6s;
+}
+.section__card:nth-child(5){
+    animation-delay: 0.8s;
+}
+.section__card:nth-child(6){
+    animation-delay: 1s;
+}
+.section__card:nth-child(7){
+    animation-delay: 1.2s;
+}
+.section__card:nth-child(8){
+    animation-delay: 1.4s;
+}
+
+/* Animation entering card */
+
+/* Animation card restaurant */
+.card__content h3{
+   white-space: nowrap;
+   overflow: hidden;
+   text-overflow: ellipsis;
+   padding-right: 5%;
+}
+
+.card__left h2{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding-right: 5%;
+ }
+
+/* Animation card restaurant */
+
+
+/* footer*/
+
+footer a:hover{
+    opacity: .5;
+    transition: .3s;
+}
+
+/* footer*/
+
+.banner__locate img:hover{
+    transform: rotate(360deg);
+    transition: 0.3s;
+}
+
+.nav__cards:hover{
+    transform: scale(1.04);
+    transition: 0.3s;
+}
+
+.card:hover{
+    opacity: 0.8;
+    transition: 0.3s;
+}
+
+.card{
+    transition: 0.3s;
+}
+
+.loader{
+  background: url('/image/loader/1482.gif') 50% 50% no-repeat #FFFFFF;
+  height: 100%;
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 9999;
+  animation: loader 1.5s linear forwards;
+}
+
+
+@keyframes loader{
+  0%,99%{
+      opacity:1;
+}
+  100%{
+      opacity: 0;
+      z-index: -1;
+  } 
+}

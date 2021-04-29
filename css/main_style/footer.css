@@ -1,0 +1,23 @@
+footer{
+    margin: 0px;
+    background-color: rgb(59, 59, 59);
+    padding: 30px 20px 40px 20px;
+}
+
+footer a{
+    display: flex;
+    text-decoration: none;
+    color: white;
+    font-weight: 400;
+    font-size: 18px;
+    padding-bottom: 5px;
+}
+
+.footer__logo{
+    width: 150px;
+    padding-bottom: 20px;
+}
+
+.footer_icone{
+    padding-right: 10px;
+}
