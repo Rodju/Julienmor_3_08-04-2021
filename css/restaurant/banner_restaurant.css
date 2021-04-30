@@ -1,27 +1,27 @@
 .background__restaurant__cite_rouge{
     position: relative;
     height: 400px;
-    background: url("/image/restaurant/cite_rouge.jpg") no-repeat;
+    background: url("../../image/restaurant/cite_rouge.jpg") no-repeat;
     background-size: cover;
 }
 
 .background__restaurant__menilmontant{
     position: relative;
     height: 400px;
-    background: url('/image/restaurant/menilmontant.jpg') no-repeat;
+    background: url('../../image/restaurant/menilmontant.jpg') no-repeat;
     background-size: cover;
 }
 
 .background__restaurant__charonne{
     position: relative;
     height: 400px;
-    background: url("/image/restaurant/charonne.jpg") no-repeat;
+    background: url("../../image/restaurant/charonne.jpg") no-repeat;
     background-size: cover;
 }
 
 .background__restaurant__folie_mericourt{
     position: relative;
     height: 400px;
-    background: url("/image/restaurant/folie-mericourt.jpg") no-repeat;
+    background: url("../../image/restaurant/folie-mericourt.jpg") no-repeat;
     background-size: cover;
 }

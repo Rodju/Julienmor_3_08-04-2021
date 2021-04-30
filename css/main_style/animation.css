@@ -170,7 +170,7 @@ footer a:hover{
 }
 
 .loader{
-  background: url('/image/loader/1482.gif') 50% 50% no-repeat #FFFFFF;
+  background: url('../../image/loader/1482.gif') 50% 50% no-repeat #FFFFFF;
   height: 100%;
   left: 0;
   position: fixed;
