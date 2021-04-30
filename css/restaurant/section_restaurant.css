@@ -70,11 +70,11 @@ p.border{
     height: 30px;
 }
 
-.card__left{
+ .card__left{
     max-width: 100%;
     min-width: 0%;
     flex:1;
-}
+} 
 
 
 
