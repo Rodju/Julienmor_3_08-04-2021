@@ -35,3 +35,8 @@ h4{
     background-color: white;
     margin: 0px;
 }
+
+.container{
+    max-width: 1200px;
+    margin: auto;
+}

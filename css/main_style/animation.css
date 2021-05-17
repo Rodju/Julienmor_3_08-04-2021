@@ -1,3 +1,45 @@
+.nav__icone1{
+    background: url('../../image/icone/mobile.svg') no-repeat;
+    height: 40px;
+    width: 40px;
+    margin: 15px 5px 0px 10px;
+}
+
+.nav__cards:hover .nav__icone1{
+    background:url('../../image/icone/mobile_purple.svg') no-repeat;
+    height: 40px;
+    width: 40px;
+    margin: 15px 5px 0px 10px;
+}
+
+.nav__icone2{
+    background: url('../../image/icone/list.svg') no-repeat;
+    height: 50px;
+    width: 40px;
+    margin: 20px 0px 0px 20px;
+}
+
+.nav__cards:hover .nav__icone2{
+    background:url('../../image/icone/list-ul_purple.svg') no-repeat;
+    height: 50px;
+    width: 40px;
+    margin: 20px 0px 0px 20px;
+}
+.nav__icone3{
+    background: url('../../image/icone/store.svg') no-repeat;
+    height: 50px;
+    width: 40px;
+    margin: 20px 0px 0px 20px;
+}
+
+.nav__cards:hover .nav__icone3{
+    background:url('../../image/icone/store_purple.svg') no-repeat;
+    height: 50px;
+    width: 40px;
+    margin: 20px 0px 0px 20px;
+}
+
+
 /* coeur */
 .heart{
     background: url('../../image/icone/heart.svg') no-repeat;
@@ -12,6 +54,16 @@
 .heart:hover{
     background: url('../../image/icone/heartpurple.png') no-repeat;
     background-size: cover;
+    animation: heart 0.5s linear forwards;
+}
+
+@keyframes heart{
+    0% {
+        opacity:0;
+    }
+    100% {
+        opacity: 1;
+    }
 }
 
 .heart__restaurant{
@@ -28,6 +80,7 @@
 .heart__restaurant:hover, .heart__restaurant:active{
     background: url('../../image/icone/heartpurple.png') no-repeat;
     background-size: cover;
+    animation: heart 0.5s linear forwards;
 }
 
 /* coeur */
@@ -124,7 +177,7 @@
 /* Animation entering card */
 
 /* Animation card restaurant */
-.card__content h3{
+.card__left h3{
    white-space: nowrap;
    overflow: hidden;
    text-overflow: ellipsis;
@@ -135,7 +188,6 @@
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
-    padding-right: 5%;
 }
 
 /* Animation card restaurant */
@@ -158,6 +210,7 @@ footer a:hover{
 .nav__cards:hover{
     transform: scale(1.04);
     transition: 0.3s;
+    background: #f5e8ff;
 }
 
 .card:hover{
@@ -188,5 +241,5 @@ footer a:hover{
   100%{
       opacity: 0;
       z-index: -1;
-  } 
+  }
 }

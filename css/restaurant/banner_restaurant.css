@@ -25,3 +25,52 @@
     background: url("../../image/restaurant/folie-mericourt.jpg") no-repeat;
     background-size: cover;
 }
+
+
+@media screen and (min-width:993px){
+
+        .background__restaurant__menilmontant{
+            display: none;
+        }
+        .background__restaurant__cite_rouge{
+            display: none;
+        }
+        .background__restaurant__charonne{
+            display: none;
+        }
+        .background__restaurant__folie_mericourt{
+            display: none;
+        }
+        .background__restaurant__menilmontant__desktop{
+            background: url('../../image/restaurant/menilmontant.jpg');
+            z-index: 9999;
+            background-size: cover;
+            padding: 100px 0px 100px 0px;
+        }
+        .background__restaurant__cite_rouge__desktop{
+            background: url("../../image/restaurant/cite_rouge.jpg");
+            z-index: 9999;
+            background-size: cover;
+            padding: 100px 0px 100px 0px;
+        }
+        .background__restaurant__charonne__desktop{
+            background: url("../../image/restaurant/charonne.jpg");
+            z-index: 9999;
+            background-size: cover;
+            padding: 100px 0px 100px 0px;
+        }
+        .background__restaurant__folie_mericourt__desktop{
+            background: url("../../image/restaurant/folie-mericourt.jpg");
+            z-index: 9999;
+            background-size: cover;
+            padding: 100px 0px 100px 0px;
+        }
+
+
+    section{
+        border-radius: 50px;
+        bottom: 0px;
+        margin: 0px;
+    }
+
+}

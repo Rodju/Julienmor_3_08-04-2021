@@ -45,7 +45,7 @@ nav a{
     .desktop{
         display: flex;
         justify-content:center;
-        gap: 100px;
+        gap: 50px;
     }
 
     .nav__cards{

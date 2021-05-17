@@ -4,6 +4,7 @@ footer{
     padding: 30px 20px 40px 20px;
 }
 
+
 footer a{
     display: flex;
     text-decoration: none;
@@ -20,4 +21,18 @@ footer a{
 
 .footer_icone{
     padding-right: 10px;
+}
+
+
+@media screen and (min-width:993px){
+
+    footer a{
+        justify-content: center;
+    }
+
+    .footer__logo{
+        margin:auto;
+        display: flex;
+    }
+
 }
